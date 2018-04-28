@@ -1,6 +1,7 @@
-io/springbootstarter/classes/coursesAPI/TopicsController.class
 hello/Greeting.class
+io/springbootstarter/classes/coursesAPI/TopicService.class
+io/springbootstarter/classes/coursesAPI/Topics.class
+io/springbootstarter/classes/coursesAPI/TopicsController.class
 hello/Application.class
 io/springbootstarter/classes/API_launcher.class
 hello/GreetingController.class
-io/springbootstarter/classes/coursesAPI/Topics.class
