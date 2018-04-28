@@ -62,6 +62,10 @@ public class TopicService {
 	}
 
 	public void addTopic(Topics topic) {
+		//How to you add validation on topic?
+		
+		//In case of failiures how to return the failiure messages?
+		
 		topicsList.add(topic);
 	}
 	
