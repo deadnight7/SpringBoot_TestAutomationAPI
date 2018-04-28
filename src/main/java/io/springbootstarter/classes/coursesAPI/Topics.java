@@ -6,6 +6,7 @@ public class Topics {
 	String author;
 	public Topics() {
 		
+		
 	}
 	public Topics(String id, String strTopicName, String author) {
 		super();
