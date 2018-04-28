@@ -17,7 +17,6 @@ public class TopicsController {
 		topicsList.add(new Topics("2", "Penetration Testing", "Fedric Beta"));		
 		topicsList.add(new Topics("3", "jQuery Testing", "Joe San"));		
 		return topicsList;
-		return topicsList;
 		
 	}
 }
