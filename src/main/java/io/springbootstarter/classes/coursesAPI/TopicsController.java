@@ -37,9 +37,27 @@ public class TopicsController {
 		//How do we return messages / error status codes back?
 		return topicService.getTopicById(strTopicID);
 	}
-	
+
 	@RequestMapping (method=RequestMethod.POST, value="/topics")
 	public void addTopic (@RequestBody Topics topic){
 		topicService.addTopic (topic);
+	}
+	
+	/**
+	 * Delete Request Mapping to delete a topic by ID
+	 * @param strID
+	 */
+	@RequestMapping (method=RequestMethod.DELETE, value="/topics/{id}")
+	public void deleteTopicByID (@PathVariable("id") String strID){
+		topicService.deleteTopicByID (strID);
+	}
+	
+	/**
+	 * Update topic by giving out Json Representation of Topic
+	 * @param strTopic
+	 */
+	@RequestMapping (method=RequestMethod.PUT, value="/topics")
+	public void updateTopic (@RequestBody Topics strTopic){
+		topicService.updateTopic (strTopic);
 	}
 }

@@ -68,6 +68,33 @@ public class TopicService {
 		
 		topicsList.add(topic);
 	}
+
+	public void deleteTopicByID(String strID) 
+	{
+		for (int i = 0; i < topicsList.size(); i++) 
+		{
+			Topics t = topicsList.get(i);
+			if (t.getId().equals(strID))
+			{
+				topicsList.remove(t);
+			}
+		}
+	}
+
+	public void updateTopic(Topics strTopic) 
+	{
+		for (int i = 0; i < topicsList.size(); i++) 
+		{
+			Topics currentTopic = topicsList.get(i);
+			if (currentTopic.getId().equals(strTopic.getId()))
+			{
+				//Update topic list
+				topicsList.get(i).setId(strTopic.getId());
+				topicsList.get(i).setAuthor(strTopic.getAuthor());
+				topicsList.get(i).setStrTopicName(strTopic.getStrTopicName());
+			}
+		}
+	}
 	
 	
 }
