@@ -1,5 +1,14 @@
 package io.springbootstarter.classes.coursesAPI;
 
+/**
+ * In order to prsist the bean to a database we need to identify the entity to JPA by identifying it as a @Entity Annotation
+ * Also we need to tell what is the primary key associated for this primary key? by marking the field level annotation by @Id 
+ * 
+ * @author chiragpandit
+ *
+ */
+
+
 public class Topics {
 	String id;
 	String strTopicName;

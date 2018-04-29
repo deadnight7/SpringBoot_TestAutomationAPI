@@ -1,5 +1,6 @@
 hello/Greeting.class
 io/springbootstarter/classes/coursesAPI/TopicService.class
+io/springbootstarter/classes/coursesAPI/Error.class
 io/springbootstarter/classes/coursesAPI/Topics.class
 io/springbootstarter/classes/coursesAPI/TopicsController.class
 hello/Application.class
